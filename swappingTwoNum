@@ -1,0 +1,10 @@
+public class MyClass {
+    public static void main(String args[]) {
+      int x=10,y=30;
+      System.out.println("Before swap:" + x +" "+ y);
+      int a = x;
+      x=y;
+      y = a;
+      System.out.println("After swap:"+x + " "+ y);
+    }
+}
